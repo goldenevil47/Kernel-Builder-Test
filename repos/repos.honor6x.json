@@ -2,12 +2,12 @@
   {
     "kernelSource": {
       "name": "Thyme-KernelSU-Proton",
-      "repo": "https://codeberg.org/DogDayAndroid/android_kernel_xiaomi_thyme",
-      "branch": "lineage-20.0",
-      "device": "thyme",
-      "defconfig": "thyme_defconfig"
+      "repo": "https://github.com/turex/siberia_hi6250_kernel",
+      "branch": "stable",
+      "device": "Honor6x",
+      "defconfig": "siberia_defconfig"
     },
-    "withKernelSU": true,
+    "withKernelSU": false,
     "toolchains": [
       {
         "repo": "https://github.com/kdrag0n/proton-clang",
@@ -37,19 +37,19 @@
       }
     },
     "AnyKernel3": {
-      "use": true,
-      "release": true,
+      "use": false,
+      "release": false,
       "repo": "https://github.com/easterNday/AnyKernel3/",
       "branch": "thyme"
     }
   },
   {
     "kernelSource": {
-      "name": "Thyme-Google",
-      "repo": "https://codeberg.org/DogDayAndroid/android_kernel_xiaomi_thyme",
-      "branch": "lineage-20.0",
-      "device": "thyme",
-      "defconfig": "thyme_defconfig"
+      "name": "honor6x",
+      "repo": "https://github.com/turex/siberia_hi6250_kernel",
+      "branch": "stable",
+      "device": "honor6x",
+      "defconfig": "siberia_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
@@ -78,8 +78,8 @@
       }
     },
     "AnyKernel3": {
-      "use": true,
-      "release": true,
+      "use": false,
+      "release": false,
       "repo": "https://github.com/easterNday/AnyKernel3/",
       "branch": "thyme"
     }
